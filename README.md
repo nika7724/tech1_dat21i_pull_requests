@@ -14,10 +14,16 @@ Here are some of the things that Markdown can do:
 
 You can also use *italics* and **bolded** text wherever you wish.
 
-Blockquotes are a thing too!
-> *"There's a very simple solution for that: You just need to install 57 plugins for VIM."*
+Blockquotes are a thing too! (You can embed blockqoute inside a blockquote too, go wild)
+>> *"There's a very simple solution for that: You just need to install 57 plugins for Neovim."*
+>>
+>> — Bartosz
 >
-> — Bartosz Biryło
+> — Octavian
+> 
+>> "It's true"
+>
+> — Bartosz
 
 And you can write in-line code like this: `console.log("Very important code");` In-line means it's located inside regular text.
 
@@ -30,13 +36,13 @@ There are unordered and ordered lists too:
 1. Ordered list element, I'm only using 1s
 
 Here's a code block, for a change:
-
-    public class Main {
-        public static void main(String args[]) {
-            System.out.println("Hello World!");
-        }
+```java
+public class Main {
+    public static void main(String args[]) {
+        System.out.println("Hello World!");
     }
-
+}
+```
 And, lastly, aside from cat gifs, images can also be embedded with Markdown:
 
 ![React logo, this is alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/270px-React-icon.svg.png)
